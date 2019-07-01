@@ -1,6 +1,6 @@
 package factory;
 
-public class MultipleFactoryA implements BaseFactory {
+public class AdvancedFactoryA implements BaseFactory {
     @Override
     public void print(String args) {
         System.out.println("multiple A " + args);

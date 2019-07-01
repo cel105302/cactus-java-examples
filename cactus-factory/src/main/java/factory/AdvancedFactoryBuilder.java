@@ -1,6 +1,6 @@
 package factory;
 
-public class MultipleFactoryBuilder {
+public class AdvancedFactoryBuilder {
     public BaseFactory getMultipleObject(String type){
         if (type.equalsIgnoreCase("A")){
             return new MultipleFactoryA();

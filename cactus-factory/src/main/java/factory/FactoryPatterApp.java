@@ -9,7 +9,7 @@ public class FactoryPatterApp {
         SimpleFactoryBuilder.build("我是私有静态final内部类带参构造器");
 
 
-        MultipleFactoryBuilder mfb = new MultipleFactoryBuilder();
+        AdvancedFactoryBuilder mfb = new AdvancedFactoryBuilder();
         BaseFactory moa = mfb.getMultipleObject("A");
         moa.print("A");
 
