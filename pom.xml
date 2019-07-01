@@ -11,6 +11,7 @@
     <modules>
         <module>cactus-grpc</module>
         <module>cacatus-jdk-proxy</module>
+        <module>cactus-singleton</module>
     </modules>
 
     <properties>
