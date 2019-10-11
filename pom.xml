@@ -11,6 +11,8 @@
     <modules>
         <module>cactus-grpc</module>
         <module>cacatus-jdk-proxy</module>
+        <module>biantest</module>
+        <module>cactus-factory</module>
     </modules>
 
     <properties>
