@@ -13,6 +13,7 @@
         <module>cacatus-jdk-proxy</module>
         <module>biantest</module>
         <module>cactus-factory</module>
+        <module>cactus-sentinel</module>
     </modules>
 
     <properties>
