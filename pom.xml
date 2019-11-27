@@ -12,7 +12,7 @@
         <module>cactus-grpc</module>
         <module>cacatus-jdk-proxy</module>
         <module>biantest</module>
-        <module>cactus-factory</module>
+        <module>desiner-pattern</module>
         <module>cactus-sentinel</module>
     </modules>
 
