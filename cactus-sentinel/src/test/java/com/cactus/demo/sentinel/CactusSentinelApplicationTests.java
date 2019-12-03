@@ -1,4 +1,4 @@
-package com.cactus.demo.cactussentinel;
+package com.cactus.demo.sentinel;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
