@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-@Service
 public class MQSender {
     private static final Logger log = LoggerFactory.getLogger(MQSender.class);
 

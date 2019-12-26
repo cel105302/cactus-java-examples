@@ -26,25 +26,26 @@ public class SubmitController {
 
     @GetMapping("/submit")
     @UnsubmitEnumeration(isCheck = false)
-    public String submit(){
+    public String submit() {
 
         return val;
     }
 
     @GetMapping("/sendTrace")
-    public String sendTrace(String abc){
+    public String sendTrace(String abc) {
         System.out.println(123);
         return "123";
     }
 
-    /*@GetMapping("/sendDdirect")
-    public void sendMsg(){
-        mqSender.sendDirect("direct");
-    }
 
     @GetMapping("/sendFanout")
-    public void sendFanout(){
-        mqSender.sendFanout("fanou");
+    public void sendFanout() throws InterruptedException {
+        mqSender.sendFanout();
+    }
+
+        /*@GetMapping("/sendDdirect")
+    public void sendMsg(){
+        mqSender.sendDirect("direct");
     }
 
     @GetMapping("/sendTopic")

@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
-@Service
 public class MQReceiver {
     private static final Logger log = LoggerFactory.getLogger(MQReceiver.class);
 
@@ -30,7 +29,7 @@ public class MQReceiver {
         Consumer consumer = new DefaultConsumer(channel) {
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
-                //super.handleDelivery(consumerTag, envelope, properties, body);
+                super.handleDelivery(consumerTag, envelope, properties, body);
                 System.out.println(new String(body));
             }
         };
